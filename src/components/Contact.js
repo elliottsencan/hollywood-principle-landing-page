@@ -4,18 +4,18 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form action="https://hollywoodprinciple.us9.list-manage.com/subscribe/post?u=61143e36dd2b444f1dd45ad6b&amp;id=55c9d07ae7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div className="field half first">
-                        <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" />
+                        <label htmlFor="mce-NAME">Name</label>
+                        <input type="text"  name="NAME" class="" id="mce-NAME" />
                     </div>
                     <div className="field half">
-                        <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
+                        <label htmlFor="mce-EMAIL">Email</label>
+                        <input type="email"  name="EMAIL" class="required email" id="mce-EMAIL"/>
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <textarea rows="6"  name="MESSAGE" class="required" id="mce-MESSAGE"></textarea>
                     </div>
                     <ul className="actions">
                         <li><input type="submit" value="Send Message" className="special" /></li>
@@ -28,25 +28,25 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="#">hollywoodprinciple@gmail.com</a>
                     </div>
                 </section>
-                <section>
+                {/* <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <span>(619) 992 1510</span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
+                        <span>738 Wilbur Avenue<br />
+                        San Diego, CA, 92109<br />
                         United States of America</span>
                     </div>
-                </section>
+                </section> */}
             </section>
         </div>
     </section>

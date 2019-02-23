@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Hollywood Principle"
                     meta={[
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
@@ -28,22 +28,33 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
+                <section id="two" className="alt">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Our Model</h2>
+                            </header>
+                            <p>Our labels’s innovative digital services model has a simple pitch: Give us good content, we will provide artists with a snapshot of their current progress and how artists how to maximize it, the same way we do for our current roster artists. </p>
+                            <ul className="actions">
+                                <li><Link to="#contact" className="button next">Stay in the know</Link></li>
+                            </ul>
+                        </div>
+                    </section>
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Exec</h3>
+                                <p>A digital record executive for all</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Roster</h3>
+                                <p>Who we work with</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/roster" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        {/* <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Magna</h3>
                                 <p>Lorem etiam nullam</p>
@@ -70,18 +81,7 @@ class HomeIndex extends React.Component {
                                 <p>Feugiat amet tempus</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
-                        </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
+                        </article> */}
                     </section>
                 </div>
 
