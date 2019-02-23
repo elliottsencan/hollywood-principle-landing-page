@@ -33,7 +33,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Our Model</h2>
                             </header>
-                            <p>Our labels’s innovative digital services model has a simple pitch: Give us good content, we will provide artists with a snapshot of their current progress and how artists how to maximize it, the same way we do for our current roster artists. </p>
+                            <p>Our labels’s innovative services model has a simple pitch: Give us good content, we will provide artists with a snapshot of their current progress and how artists how to maximize it, the same way we do for our current roster artists. </p>
                             <ul className="actions">
                                 <li><Link to="#contact" className="button next">Stay in the know</Link></li>
                             </ul>

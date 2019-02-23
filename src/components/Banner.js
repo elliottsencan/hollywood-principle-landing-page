@@ -4,7 +4,7 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1>A  digital label committed to helping artists</h1>
+                <h1>A label committed to helping artists</h1>
             </header>
             <div className="content">
                 {/* <p>Join  digital label committed to helping artists </p> */}
